@@ -4,10 +4,10 @@
  * Module dependencies.
  */
 
-var app = require("../app");
+var app = require("../src/app");
 var debug = require("debug")("sandbox-express-with-jest:server");
 var http = require("http");
-const socket = require("../socket");
+const socket = require("../src/socket");
 
 /**
  * Get port from environment and store in Express.
