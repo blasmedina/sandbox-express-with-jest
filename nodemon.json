@@ -1,0 +1,10 @@
+{
+  "ignore": [".git", "node_modules/**/*"],
+  "watch": ["bin/**/*", "src/**/*"],
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "*,-express:router:*,-express:application,-morgan,-sequelize:connection:*"
+  },
+  "exec": "npm run start",
+  "ext": "js,json"
+}
