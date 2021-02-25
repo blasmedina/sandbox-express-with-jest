@@ -1,5 +1,5 @@
 // Generales
-const app = require("../app");
+const app = require("../src/app");
 
 // REST
 const request = require("supertest");
@@ -8,7 +8,7 @@ const { StatusCodes } = require("http-status-codes");
 // Socket
 const { createServer } = require("http");
 const Client = require("socket.io-client");
-const socket = require("../socket");
+const socket = require("../src/socket");
 
 describe("Prueba de comunicación", () => {
   describe("Comunicación Socket", () => {
